@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>FORMS</title>
+</head>
+<body>
+    <main>
+            <form >
+                <fieldset class="info">
+                    <legend>Personal Information</legend>
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" />
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="email" />
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" placeholder="example@example.com"/>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" placeholder="+country_code 000000" />
+                    <label for="date">Birthday:</label>
+                    <input type="date" id="date" id="date" />
+                </fieldset>
+
+                <fieldset class="Perferences">
+                    <legend>Perferences</legend>
+                    <label for="fav">Favorite color:</label>
+                    <input type="text" id="fav" />
+                    <p>Preferred contact method:</p>
+                    <p class="select">
+                        <input type="radio" id="Email"/>
+                        <label for="Email">Email</label>
+                    </p>
+                    <p class="select">
+                        <input type="radio" id="Phone">
+                        <label for="Phone">Phone</label>
+                    </p>
+                    <p>Gender:</p>
+                    <p class="select">
+                        <input type="radio" id="Email"/>
+                        <label for="Email">Email</label>
+                    </p>
+                    <p class="select">
+                        <input type="radio" id="Phone">
+                        <label for="Phone">Phone</label>
+                    </p>
+                    <p class="quantity">
+                        <label>Quantity (between 1 and 5)</label>
+                        <input type="number" />
+                    </p>
+                </fieldset>
+
+
+                <fieldset class="cv">
+                    <legend>CV</legend>
+                    <p>
+                        <label>Upload a file: </label>
+                        <input type="file" />
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Agreement</legend>
+                </fieldset>
+        
+            </form>
+            <form>
+                <input type="submit">
+            </form>
+
+    </main>
+</body>
+</html>

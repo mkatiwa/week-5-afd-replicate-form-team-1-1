@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    margin: 1rem;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.info input{
+    width: 250px;
+}
+
+#date{
+    width: 150px;
+}
+
+.quantity{
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity input{
+    width: 100px;
+}
+
+#fav{
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.select{
+    margin-left: 0.5rem;
+} */
+
+.select input{
+    width: 10px;
+    margin-left: 0.5rem;
+}
